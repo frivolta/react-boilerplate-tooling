@@ -33,3 +33,5 @@
 ## 14) Adding eslint "npx eslint --init" --typescript needs to be added
 
 ## 15) Adding eslint accessibility plugin
+
+## 16) Adding husky pre-commit
