@@ -41,3 +41,5 @@
 ## 18) Add error boundary
 
 ## 19) Adding react axe
+
+## 20) To copu git clone --depth=1 <url> <new folder>, rm -rf .git, git init, git remote add origin...
