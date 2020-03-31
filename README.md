@@ -37,3 +37,7 @@
 ## 16) Adding husky pre-commit
 
 ## 17) Add React strict mode
+
+## 18) Add error boundary
+
+## 19) Adding react axe
