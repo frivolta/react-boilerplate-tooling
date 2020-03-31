@@ -10,21 +10,6 @@ Starting a new React application could be overcomplicated, CRA is a fast prototy
 
 The scope of this boilerplate is having the latest standards technologies, together with the right toolkit for both development, production with performance and analysis in mind.
 
-## Table of contents
-
-> - [React Boilerplate Starter Kit](#react--boilerplate--starter--kit)
->   - [About / Synopsis](#about--synopsis)
->   - [Table of contents](#table-of-contents)
->   - [Installation](#installation)
->   - [Usage](#usage)
->     - [Screenshots](#screenshots)
->     - [Features](#features)
->   - [Code](#code)
->     - [Content](#content)
->     - [Requirements](#requirements)
->     - [Limitations](#limitations)
->     - [Build](#build)
-
 ## Installation
 
 Using npm:
