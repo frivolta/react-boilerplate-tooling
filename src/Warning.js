@@ -1,5 +1,5 @@
-import React from 'react';
+import React from 'react'
 
 const Warning = () => <p>Take it easy</p>
 
-export default Warning;
+export default Warning

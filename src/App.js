@@ -1,12 +1,11 @@
 import React from 'react'
-import { hot } from 'react-hot-loader';
+import { hot } from 'react-hot-loader'
 
-const Warning = React.lazy(() => import('./Warning'));
-
+const Warning = React.lazy(() => import('./Warning'))
 
 class App extends React.Component {
   state = {
-    count: 0
+    count: 0,
   }
 
   render() {
@@ -14,9 +13,21 @@ class App extends React.Component {
       <div>
         <h1>Hello World!!</h1>
         <h2>Count: {this.state.count}</h2>
-        <button onClick={() => this.setState(state => ({ count: state.count + 1 }))}>+</button>
-        <button onClick={() => this.setState(state => ({ count: state.count - 1 }))}>-</button>
-        {this.state.count > 5 ? <React.Suspense fallback={null}><Warning /></React.Suspense> : null}
+        <button
+          onClick={() => this.setState((state) => ({ count: state.count + 1 }))}
+        >
+          +
+        </button>
+        <button
+          onClick={() => this.setState((state) => ({ count: state.count - 1 }))}
+        >
+          -
+        </button>
+        {this.state.count > 5 ? (
+          <React.Suspense fallback={null}>
+            <Warning />
+          </React.Suspense>
+        ) : null}
       </div>
     )
   }
