@@ -35,3 +35,5 @@
 ## 15) Adding eslint accessibility plugin
 
 ## 16) Adding husky pre-commit
+
+## 17) Add React strict mode
