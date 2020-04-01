@@ -6,9 +6,9 @@ Current status: _Working / Prototype_
 
 ## About / Synopsis
 
-Starting a new React application could be overcomplicated, CRA is a fast prototyping tool but it misses many 'must have' dependency and configurations, also I found it difficult to understand the "magic" behind the scenes. Don't get me wrong, CRA is really useful when I start a fast project or I am in need of having a rapid prototype but in real applications where complexity easily grow overtime and many people work together I learned at my expense that have a complete understanding of your package could be the difference between a successful project or a big technical debt.
+Starting a new **React application** could be overcomplicated, CRA is a fast prototyping tool but it misses many **'must have' dependency and configurations**, also I found it difficult to understand **the "magic" behind the scenes**. Don't get me wrong, CRA is useful when I start a fast project or I need of having a rapid prototype but in real applications where complexity easily grow over time and many people work together I learned at my expense that has a complete understanding of your package could be the difference between a successful project or a big **technical debt**.
 
-The scope of this boilerplate is having the latest standards technologies, together with the right toolkit for both development, production with performance and analysis in mind.
+The scope of this boilerplate is having the **latest standards technologies**, together with the **right toolkit** for both development, production with performance and analysis in mind.
 
 ## Installation
 
@@ -44,7 +44,7 @@ This will create a "dist" folder with minified code, also you will find `bundle_
 
 ### Performance
 
-- React and React DOM are served from CDN in production build
+- React and React DOM are served from CDN in the production build
 - Babel polyfills are loaded only in older browser
 - React Strict is enabled to avoid older syntax
 - Source maps are available only in development for debugging purposes
@@ -52,7 +52,7 @@ This will create a "dist" folder with minified code, also you will find `bundle_
 
 ### Accessibility
 
-React Axe and ESLint a11y checks accessibility and enforce best practices. For example you cannot use an `<img>` tag without the `alt` attribute. The same happens for common rules. You can disable this feature or trigger a "warning" instead of an error.
+**React Axe and ESLint a11y checks accessibility and enforce best practices**. For example, you cannot use a `<img>` tag without the `alt` attribute. The same happens for common rules. You can disable this feature or trigger a "warning" instead of an error.
 
 To remove React Axe, remove the following lines from `index.js`:
 
@@ -69,7 +69,7 @@ Currently error boundary is defined by the `DefaultErrorBoundary.js` component.
 
 ### Conclusion
 
-That's it, this project is currently under development, future features includes: TypeScript integration, Trevis, Docker Support, Cypress integration, and a CI / CD pipeline.
+That's it, this project is currently under development, future features includes TypeScript integration, Trevis, Docker Support, Cypress integration, and a CI / CD pipeline.
 
 ## About Filippo Rivolta
 
