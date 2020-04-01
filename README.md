@@ -67,11 +67,9 @@ if (process.env.NODE_ENV === 'development') {
 
 Currently error boundary is defined by the `DefaultErrorBoundary.js` component.
 
-### Deploy (how to install build product)
+### Conclusion
 
-Direct to MP package if any. Otherwise provide steps to deploy on Nuxeo Platform:
-
-> Copy the built artifacts into `$NUXEO_HOME/templates/custom/bundles/` and activate the `custom` template.
+That's it, this project is currently under development, future features includes: TypeScript integration, Trevis, Docker Support, Cypress integration, and a CI / CD pipeline.
 
 ## About Filippo Rivolta
 
