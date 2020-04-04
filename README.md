@@ -71,6 +71,11 @@ Currently error boundary is defined by the `DefaultErrorBoundary.js` component.
 
 That's it, this project is currently under development, future features includes TypeScript integration, Trevis, Docker Support, Cypress integration, and a CI / CD pipeline.
 
+## Updates
+
+- Added support for Typescript
+- Added parallel script `npm run validate` to validate and build the app
+
 ## About Filippo Rivolta
 
 [Visit my website](https://www.rivoltafilippo.com)
