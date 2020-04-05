@@ -73,6 +73,7 @@ That's it, this project is currently under development, future features includes
 
 ## Updates
 
+- Added circleci configuration
 - Added support for Typescript
 - Added parallel script `npm run validate` to validate and build the app
 
