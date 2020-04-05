@@ -11,7 +11,8 @@
     "format": "pretty-quick",
     "lint": "eslint ./ --ext .js,.jsx,.ts,.tsx",
     "tsc": "tsc",
-    "validate": "npm-run-all --parallel lint format tsc build"
+    "validate": "npm-run-all --parallel lint format tsc build",
+    "start": "serve -s build"
   },
   "husky": {
     "hooks": {
